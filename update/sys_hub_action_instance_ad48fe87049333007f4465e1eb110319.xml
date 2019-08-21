@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">ca07ee090b30030085c083eb37673afc</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment>Get Email Search Condition records associated with the Incident</comment>
+        <compiled_snapshot>ca07ee090b30030085c083eb37673afc</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Eradicate Phishing Emails V1">dd48be87049333007f4465e1eb1103e0</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:18:14</sys_created_on>
+        <sys_id>ad48fe87049333007f4465e1eb110319</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RWPSecOps" source="x_snc_rwpsecops">0cf6f647049333007f4465e1eb1103f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RWPSecOps">0cf6f647049333007f4465e1eb1103f1</sys_scope>
+        <sys_update_name>sys_hub_action_instance_ad48fe87049333007f4465e1eb110319</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:18:14</sys_updated_on>
+        <ui_id>788dfe38-e0ea-4116-8dd4-8c5366da9f8a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ad48fe87049333007f4465e1eb110319"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ad48fe87049333007f4465e1eb110319</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:18:14</sys_created_on>
+        <sys_id>2d48fe87049333007f4465e1eb11031e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:18:14</sys_updated_on>
+        <value>sn_si_m2m_incident_email_search</value>
+        <variable display_value="">8a07ee090b30030085c083eb37673aff</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ad48fe87049333007f4465e1eb110319"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>ad48fe87049333007f4465e1eb110319</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:18:14</sys_created_on>
+        <sys_id>e548fe87049333007f4465e1eb11031e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:18:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ca07ee090b30030085c083eb37673afc</table>
+        <value>sn_si_incident.sys_id={{c684078a-fb76-478b-97d8-4ae9830580fd.Record.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>ad48fe87049333007f4465e1eb110319</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:18:14</sys_created_on>
+        <sys_id>a948fe87049333007f4465e1eb11031e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:18:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ca07ee090b30030085c083eb37673afc</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

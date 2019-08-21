@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation>Run Sighting Search on Observables using Configured Integrations</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Security Operations">48783d9bdb344300346ff2b6ae9619e7</category>
+        <copied_from>68826755b3012300ed7fc9c316a8dc72</copied_from>
+        <copied_from_name>Run Sighting Search on Observabl</copied_from_name>
+        <description>Given an Incident sys_id and comma separated string of observable sys_ids, this subflow runs Sighting Search on Observables using configured Integrations.</description>
+        <internal_name>run_sighting_search_on_observables_v1</internal_name>
+        <label_cache>[{"name":"0f085529-c5bc-4d57-a925-0239b7cfcc5b.Record.sys_domain","label":"1➛Security Incident Record➛Domain","reference":"sys_user_group","reference_display":"Group","type":"domain_id","base_type":"domain_id","parent_table_name":"sn_si_incident","column_name":"sys_domain"},{"name":"0f085529-c5bc-4d57-a925-0239b7cfcc5b.Record","label":"1➛Security Incident Record","reference":"sn_si_incident","reference_display":"Security Incident","type":"reference","base_type":"reference"},{"name":"0f085529-c5bc-4d57-a925-0239b7cfcc5b.Table","label":"1➛Security Incident Table","reference":"sn_si_incident","reference_display":"Security Incident","type":"table_name","base_type":"table_name"},{"name":"subflow.incident_sysid","label":"Input➛Incident SysId","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"6091f138-17a6-4ecb-85ef-adbf99e33bd0.sightingsearchobservables","label":"2➛sightingSearchObservables","reference_display":"sightingSearchObservables","type":"string","base_type":"string"},{"name":"subflow.observables","label":"Input➛observables","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"e15952f2-e217-4ae8-a39d-e2a4f20cd3b2.state","label":"3➛State","reference_display":"State","type":"string","base_type":"string"},{"name":"e15952f2-e217-4ae8-a39d-e2a4f20cd3b2.context","label":"3➛Context","reference":"wf_context","reference_display":"Workflow context","type":"reference","base_type":"reference"},{"name":"e15952f2-e217-4ae8-a39d-e2a4f20cd3b2.result","label":"3➛Result","reference_display":"Result","type":"string","base_type":"string"},{"name":"e15952f2-e217-4ae8-a39d-e2a4f20cd3b2.returnval","label":"3➛Return Value","reference_display":"Return Value","type":"string","base_type":"string"},{"name":"a0456c06-cab9-4ce2-bbe5-ac702c7c824a.Records","label":"4➛Workflow context Records","reference":"wf_context","reference_display":"Workflow context","type":"records","base_type":"records"},{"name":"a0456c06-cab9-4ce2-bbe5-ac702c7c824a.Table","label":"4➛Workflow context Table","reference":"wf_context","reference_display":"Workflow context","type":"table_name","base_type":"table_name"},{"name":"a0456c06-cab9-4ce2-bbe5-ac702c7c824a.Count","label":"4➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"f35f197a-ef1c-46b1-bafb-39ac2e0447e8.item","label":"5➛Workflow context Record","reference":"wf_context","reference_display":"Workflow context","type":"reference","base_type":"reference"},{"name":"subflow.domainid","label":"Input➛domainId","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.share_sighting_results","label":"Input➛share_sighting_results","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":""},{"name":"subflow.max_rows","label":"Input➛max_rows","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.start_date","label":"Input➛start_date","reference":"","reference_display":"","type":"glide_date_time","base_type":"glide_date_time","column_name":""},{"name":"subflow.end_date","label":"Input➛end_date","reference":"","reference_display":"","type":"glide_date_time","base_type":"glide_date_time","column_name":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Run Sighting Search on Observables V1</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:18:50</sys_created_on>
+        <sys_id>9e6832c7049333007f4465e1eb1103c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Run Sighting Search on Observables V1</sys_name>
+        <sys_package display_value="RWPSecOps" source="x_snc_rwpsecops">0cf6f647049333007f4465e1eb1103f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RWPSecOps">0cf6f647049333007f4465e1eb1103f1</sys_scope>
+        <sys_update_name>sys_hub_flow_9e6832c7049333007f4465e1eb1103c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:18:50</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=9e6832c7049333007f4465e1eb1103c1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9e6832c7049333007f4465e1eb1103c1"/>
+</record_update>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">64a9b148b3812300ed7fc9c316a8dc8c</block>
+        <comment/>
+        <connected_to>0138de3d-eb47-43f2-9ee5-b2564c4b5a25</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Confirm Threat from Observable Triage V1">c8f77a87049333007f4465e1eb11033f</flow>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:47</sys_created_on>
+        <sys_id>10f77a87049333007f4465e1eb1103bd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RWPSecOps" source="x_snc_rwpsecops">0cf6f647049333007f4465e1eb1103f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RWPSecOps">0cf6f647049333007f4465e1eb1103f1</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_10f77a87049333007f4465e1eb1103bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:47</sys_updated_on>
+        <ui_id>1ff46d28-242b-483e-826c-a1a51820f09f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=10f77a87049333007f4465e1eb1103bd"/>
+</record_update>

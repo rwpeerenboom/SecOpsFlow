@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment>Update the worknote with the finding...</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Assess Phishing Email Impact V1">6ac7b687049333007f4465e1eb1103f7</flow>
+        <order>3.4.3.1</order>
+        <parent_ui_id>2a86eac5-b433-424d-a4b1-e4b2b09058ef</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:08</sys_created_on>
+        <sys_id>32c7f687049333007f4465e1eb11036f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RWPSecOps" source="x_snc_rwpsecops">0cf6f647049333007f4465e1eb1103f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RWPSecOps">0cf6f647049333007f4465e1eb1103f1</sys_scope>
+        <sys_update_name>sys_hub_action_instance_32c7f687049333007f4465e1eb11036f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:08</sys_updated_on>
+        <ui_id>cb027dc4-3806-479c-ba44-2a3fd72520ce</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=32c7f687049333007f4465e1eb11036f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>32c7f687049333007f4465e1eb11036f</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:08</sys_created_on>
+        <sys_id>72c7f687049333007f4465e1eb110374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:08</sys_updated_on>
+        <value>sn_si_incident</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=32c7f687049333007f4465e1eb11036f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>32c7f687049333007f4465e1eb11036f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:08</sys_created_on>
+        <sys_id>3ec7f687049333007f4465e1eb110373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{87224756-454b-4ae2-98b5-5dd9915d09cf.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>32c7f687049333007f4465e1eb11036f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:08</sys_created_on>
+        <sys_id>7ac7f687049333007f4465e1eb110373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>32c7f687049333007f4465e1eb11036f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:08</sys_created_on>
+        <sys_id>fec7f687049333007f4465e1eb110373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>work_notes=Found Results for Email Search : {{f5874397-6cde-4c62-9f37-2ab89896ddbf.item.sn_sec_cmn_email_search.description}} with criteria : {{f5874397-6cde-4c62-9f37-2ab89896ddbf.item.sn_sec_cmn_email_search.query_description}}</value>
+    </sys_element_mapping>
+</record_update>

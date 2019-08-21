@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment>Post a worknote for presence of malicious observables.</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Confirm Threat from Observable Triage V1">c8f77a87049333007f4465e1eb11033f</flow>
+        <order>3.1</order>
+        <parent_ui_id>0138de3d-eb47-43f2-9ee5-b2564c4b5a25</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:47</sys_created_on>
+        <sys_id>14f77a87049333007f4465e1eb1103dd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RWPSecOps" source="x_snc_rwpsecops">0cf6f647049333007f4465e1eb1103f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RWPSecOps">0cf6f647049333007f4465e1eb1103f1</sys_scope>
+        <sys_update_name>sys_hub_action_instance_14f77a87049333007f4465e1eb1103dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:48</sys_updated_on>
+        <ui_id>59d469fb-4415-40e5-9a0e-f515ee56855b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=14f77a87049333007f4465e1eb1103dd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>14f77a87049333007f4465e1eb1103dd</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:48</sys_created_on>
+        <sys_id>54f77a87049333007f4465e1eb1103e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:48</sys_updated_on>
+        <value>sn_si_incident</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=14f77a87049333007f4465e1eb1103dd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>14f77a87049333007f4465e1eb1103dd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:48</sys_created_on>
+        <sys_id>10f77a87049333007f4465e1eb1103e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{986cf98e-ba38-48fe-99b3-a187f55338b9.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>14f77a87049333007f4465e1eb1103dd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:48</sys_created_on>
+        <sys_id>5cf77a87049333007f4465e1eb1103e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>14f77a87049333007f4465e1eb1103dd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:48</sys_created_on>
+        <sys_id>d0f77a87049333007f4465e1eb1103e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>work_notes=Presence of a threat is very likely. {{820031c3-3830-4cfa-b175-0c51b7017e00.observablescount}}Malicious observables found on the incident. </value>
+    </sys_element_mapping>
+</record_update>

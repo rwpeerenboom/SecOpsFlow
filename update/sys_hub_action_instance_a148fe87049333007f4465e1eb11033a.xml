@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Response Task V1">c4bc89330b70230099b8ea7885673a4a</action_type>
+        <action_type_parent display_value="Create Response Task V1">939c09330b70230099b8ea7885673afe</action_type_parent>
+        <comment>Automated Action: Eradicate Phishing Emails</comment>
+        <compiled_snapshot>c4bc89330b70230099b8ea7885673a4a</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Eradicate Phishing Emails V1">dd48be87049333007f4465e1eb1103e0</flow>
+        <order>4.3.1</order>
+        <parent_ui_id>ffb7eeee-4ba4-4251-a16b-1b0b532d6a57</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:18:14</sys_created_on>
+        <sys_id>a148fe87049333007f4465e1eb11033a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RWPSecOps" source="x_snc_rwpsecops">0cf6f647049333007f4465e1eb1103f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RWPSecOps">0cf6f647049333007f4465e1eb1103f1</sys_scope>
+        <sys_update_name>sys_hub_action_instance_a148fe87049333007f4465e1eb11033a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:18:14</sys_updated_on>
+        <ui_id>40b5ca33-bb66-40b7-92c0-0046fa656466</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a148fe87049333007f4465e1eb11033a"/>
+    <sys_element_mapping action="delete_multiple" query="id=a148fe87049333007f4465e1eb11033a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_parent_task</field>
+        <id>a148fe87049333007f4465e1eb11033a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:18:14</sys_created_on>
+        <sys_id>6d48fe87049333007f4465e1eb11033e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:18:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value>{{c684078a-fb76-478b-97d8-4ae9830580fd.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>a148fe87049333007f4465e1eb11033a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:18:14</sys_created_on>
+        <sys_id>2148fe87049333007f4465e1eb11033f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:18:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value>Automated Action: Eradicate Phishing Emails : {{4a6c1487-772f-4c8f-839e-db27ac889c41.item.sn_sec_cmn_email_search.name}}</value>
+    </sys_element_mapping>
+</record_update>

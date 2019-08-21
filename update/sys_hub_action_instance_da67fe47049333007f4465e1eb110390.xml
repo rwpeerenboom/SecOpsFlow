@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Response Task V1">c4bc89330b70230099b8ea7885673a4a</action_type>
+        <action_type_parent display_value="Create Response Task V1">939c09330b70230099b8ea7885673afe</action_type_parent>
+        <comment>Automated Action: Acknowledge receipt of the phishing submission</comment>
+        <compiled_snapshot>c4bc89330b70230099b8ea7885673a4a</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Security Incident - Automated Phishing Playbook - Template V1">c667fe47049333007f4465e1eb110356</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:14:27</sys_created_on>
+        <sys_id>da67fe47049333007f4465e1eb110390</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RWPSecOps" source="x_snc_rwpsecops">0cf6f647049333007f4465e1eb1103f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RWPSecOps">0cf6f647049333007f4465e1eb1103f1</sys_scope>
+        <sys_update_name>sys_hub_action_instance_da67fe47049333007f4465e1eb110390</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:14:27</sys_updated_on>
+        <ui_id>3cc443ff-c1d2-4e1a-982a-9372ecd124d7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=da67fe47049333007f4465e1eb110390"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>da67fe47049333007f4465e1eb110390</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:14:28</sys_created_on>
+        <sys_id>5267fe47049333007f4465e1eb110396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:14:28</sys_updated_on>
+        <value>Automated Action: Acknowledge receipt of the phishing submission </value>
+        <variable display_value="">58bc89330b70230099b8ea7885673a53</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=da67fe47049333007f4465e1eb110390"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_parent_task</field>
+        <id>da67fe47049333007f4465e1eb110390</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:14:28</sys_created_on>
+        <sys_id>1e67fe47049333007f4465e1eb110395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:14:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>da67fe47049333007f4465e1eb110390</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:14:28</sys_created_on>
+        <sys_id>de67fe47049333007f4465e1eb110395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:14:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

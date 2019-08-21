@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Response Task V1">c4bc89330b70230099b8ea7885673a4a</action_type>
+        <action_type_parent display_value="Create Response Task V1">939c09330b70230099b8ea7885673afe</action_type_parent>
+        <comment>Automated Action: Assess Phishing Email Impact  by running an Email Search.</comment>
+        <compiled_snapshot>c4bc89330b70230099b8ea7885673a4a</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Security Incident - Automated Phishing Playbook - Template V1">c667fe47049333007f4465e1eb110356</flow>
+        <order>11</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:14:28</sys_created_on>
+        <sys_id>d267fe47049333007f4465e1eb1103cc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RWPSecOps" source="x_snc_rwpsecops">0cf6f647049333007f4465e1eb1103f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RWPSecOps">0cf6f647049333007f4465e1eb1103f1</sys_scope>
+        <sys_update_name>sys_hub_action_instance_d267fe47049333007f4465e1eb1103cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:14:28</sys_updated_on>
+        <ui_id>9435b357-d3f6-40ba-94cd-f37616c71e24</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d267fe47049333007f4465e1eb1103cc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d267fe47049333007f4465e1eb1103cc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:14:28</sys_created_on>
+        <sys_id>5267fe47049333007f4465e1eb1103d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:14:28</sys_updated_on>
+        <value>Automated Action: Assess Phishing Email Impact - Run Email Search</value>
+        <variable display_value="">58bc89330b70230099b8ea7885673a53</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d267fe47049333007f4465e1eb1103cc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_parent_task</field>
+        <id>d267fe47049333007f4465e1eb1103cc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:14:28</sys_created_on>
+        <sys_id>1e67fe47049333007f4465e1eb1103d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:14:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>d267fe47049333007f4465e1eb1103cc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:14:28</sys_created_on>
+        <sys_id>de67fe47049333007f4465e1eb1103d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:14:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c4bc89330b70230099b8ea7885673a4a</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

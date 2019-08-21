@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation>Enrich Observables with given Inputs using Implementations for the capability</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Security Operations">48783d9bdb344300346ff2b6ae9619e7</category>
+        <copied_from>2303a70ab3302300ed7fc9c316a8dc66</copied_from>
+        <copied_from_name>Enrich Observables V1</copied_from_name>
+        <description>Enrich observables with additional information from a variety of sources using implementation workflows.</description>
+        <internal_name>enrich_observables_v1</internal_name>
+        <label_cache>[{"name":"20f54061-59c3-4d7d-9396-8ac329a8b1af.context","label":"1➛Context","reference":"wf_context","reference_display":"Workflow context","type":"reference","base_type":"reference"},{"name":"subflow.domainid","label":"Input➛domainId","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.observables","label":"Input➛observables","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.tasksysid","label":"Input➛taskSysId","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Enrich Observables V1</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:17:55</sys_created_on>
+        <sys_id>70387e87049333007f4465e1eb1103c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Enrich Observables V1</sys_name>
+        <sys_package display_value="RWPSecOps" source="x_snc_rwpsecops">0cf6f647049333007f4465e1eb1103f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RWPSecOps">0cf6f647049333007f4465e1eb1103f1</sys_scope>
+        <sys_update_name>sys_hub_flow_70387e87049333007f4465e1eb1103c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:17:55</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=70387e87049333007f4465e1eb1103c2"/>
+    <sys_variable_value action="delete_multiple" query="document_key=70387e87049333007f4465e1eb1103c2"/>
+</record_update>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">64e7638ab3302300ed7fc9c316a8dc6e</block>
+        <comment>Get the Observable Enrichment Invocation Workflow Context Record</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Enrich Observables V1">70387e87049333007f4465e1eb1103c2</flow>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned>observable_enrichment_abstract_workflow_context</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:17:55</sys_created_on>
+        <sys_id>45387e87049333007f4465e1eb1103eb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RWPSecOps" source="x_snc_rwpsecops">0cf6f647049333007f4465e1eb1103f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RWPSecOps">0cf6f647049333007f4465e1eb1103f1</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_45387e87049333007f4465e1eb1103eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:17:55</sys_updated_on>
+        <ui_id>c10ea880-649e-4c65-8c29-576e5ed694a7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=45387e87049333007f4465e1eb1103eb"/>
+    <sys_element_mapping action="delete_multiple" query="id=45387e87049333007f4465e1eb1103eb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>observable_enrichment_abstract_workflow_context</field>
+        <id>45387e87049333007f4465e1eb1103eb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:17:55</sys_created_on>
+        <sys_id>c1387e87049333007f4465e1eb1103ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:17:55</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_70387e87049333007f4465e1eb1103c2</table>
+        <value>{{20f54061-59c3-4d7d-9396-8ac329a8b1af.context}}</value>
+    </sys_element_mapping>
+</record_update>

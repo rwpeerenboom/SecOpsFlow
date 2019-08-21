@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation>Subflow to invoke Security Operations Capability &amp;quot;Run Threat Lookups&amp;quot;</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Security Operations">48783d9bdb344300346ff2b6ae9619e7</category>
+        <copied_from>e68922bdb3b02300ed7fc9c316a8dceb</copied_from>
+        <copied_from_name>Run Threat Lookups for Observabl</copied_from_name>
+        <description/>
+        <internal_name>run_threat_lookups_for_observables_v1</internal_name>
+        <label_cache>[{"name":"subflow.tasksysid","label":"Input➛taskSysId","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.observables","label":"Input➛observables","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.domainid","label":"Input➛domainId","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"d7ebd35e-f52a-46f9-8b73-b0b1d28e2cab.state","label":"1➛State","reference_display":"State","type":"string","base_type":"string"},{"name":"d7ebd35e-f52a-46f9-8b73-b0b1d28e2cab.context","label":"1➛Context","reference":"wf_context","reference_display":"Workflow context","type":"reference","base_type":"reference"},{"name":"d7ebd35e-f52a-46f9-8b73-b0b1d28e2cab.result","label":"1➛Result","reference_display":"Result","type":"string","base_type":"string"},{"name":"d7ebd35e-f52a-46f9-8b73-b0b1d28e2cab.returnval","label":"1➛Return Value","reference_display":"Return Value","type":"string","base_type":"string"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Run Threat Lookups for Observables V1</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:19:34</sys_created_on>
+        <sys_id>0598b2c7049333007f4465e1eb110397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Run Threat Lookups for Observables V1</sys_name>
+        <sys_package display_value="RWPSecOps" source="x_snc_rwpsecops">0cf6f647049333007f4465e1eb1103f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RWPSecOps">0cf6f647049333007f4465e1eb1103f1</sys_scope>
+        <sys_update_name>sys_hub_flow_0598b2c7049333007f4465e1eb110397</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:19:34</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=0598b2c7049333007f4465e1eb110397"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0598b2c7049333007f4465e1eb110397"/>
+</record_update>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">94f3deecb3112300ed7fc9c316a8dc9d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Security Incident - Automated Phishing Playbook - Template V1">c667fe47049333007f4465e1eb110356</flow>
+        <inputs/>
+        <logic_definition display_value="Parallel Branch">a1168de173311300b61e66476bf6a7d0</logic_definition>
+        <order>7.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>a42839f6-0118-4f32-ad2b-9a6a10f676e1</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:14:27</sys_created_on>
+        <sys_id>0e67fe47049333007f4465e1eb11037a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RWPSecOps" source="x_snc_rwpsecops">0cf6f647049333007f4465e1eb1103f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RWPSecOps">0cf6f647049333007f4465e1eb1103f1</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_0e67fe47049333007f4465e1eb11037a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:14:27</sys_updated_on>
+        <ui_id>2a945e2f-807e-4ab7-baf5-467dbb65db6d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=0e67fe47049333007f4465e1eb11037a"/>
+</record_update>

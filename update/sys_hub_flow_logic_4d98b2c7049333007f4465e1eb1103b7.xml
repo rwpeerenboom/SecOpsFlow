@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c2a03e71b3f02300ed7fc9c316a8dcaa</block>
+        <comment>Invoke Run Threat Lookup Capability to get Observable Reputation</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Run Threat Lookups for Observables V1">0598b2c7049333007f4465e1eb110397</flow>
+        <inputs/>
+        <logic_definition display_value="Call a Workflow">e6edace2733203006715b45a4cf6a7b2</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:19:34</sys_created_on>
+        <sys_id>4d98b2c7049333007f4465e1eb1103b7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RWPSecOps" source="x_snc_rwpsecops">0cf6f647049333007f4465e1eb1103f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RWPSecOps">0cf6f647049333007f4465e1eb1103f1</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_4d98b2c7049333007f4465e1eb1103b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:19:34</sys_updated_on>
+        <ui_id>d7ebd35e-f52a-46f9-8b73-b0b1d28e2cab</ui_id>
+        <workflow_inputs/>
+        <workflow_reference display_value="Security Operations Integration - Threat Lookup">204ef7aa0be33200263a089b37673ae5</workflow_reference>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=4d98b2c7049333007f4465e1eb1103b7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>4d98b2c7049333007f4465e1eb1103b7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:19:34</sys_created_on>
+        <sys_id>0198b2c7049333007f4465e1eb1103bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:19:34</sys_updated_on>
+        <value>{{subflow.domainid}}</value>
+        <variable display_value="">ac3380ff0b233200263a089b37673af8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>4d98b2c7049333007f4465e1eb1103b7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:19:34</sys_created_on>
+        <sys_id>8598b2c7049333007f4465e1eb1103bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:19:34</sys_updated_on>
+        <value>{{subflow.tasksysid}}</value>
+        <variable display_value="">9ef200ff0b233200263a089b37673ae8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>4d98b2c7049333007f4465e1eb1103b7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:19:34</sys_created_on>
+        <sys_id>c198b2c7049333007f4465e1eb1103bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:19:34</sys_updated_on>
+        <value>{{subflow.observables}}</value>
+        <variable display_value="">a073d83e0be33200263a089b37673ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>4d98b2c7049333007f4465e1eb1103b7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:19:34</sys_created_on>
+        <sys_id>c598b2c7049333007f4465e1eb1103bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:19:34</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">4aa624e8734303006715b45a4cf6a785</variable>
+    </sys_variable_value>
+</record_update>

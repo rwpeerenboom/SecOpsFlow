@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">716281160b100300d97d8bf637673ac7</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment>Send Acknowledgement Email</comment>
+        <compiled_snapshot>716281160b100300d97d8bf637673ac7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Security Incident - Automated Phishing Playbook - Template V1">c667fe47049333007f4465e1eb110356</flow>
+        <order>3.1</order>
+        <parent_ui_id>27b1ae68-b234-4476-ba59-f3a92b1412e8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:14:28</sys_created_on>
+        <sys_id>1a67fe47049333007f4465e1eb110399</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RWPSecOps" source="x_snc_rwpsecops">0cf6f647049333007f4465e1eb1103f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RWPSecOps">0cf6f647049333007f4465e1eb1103f1</sys_scope>
+        <sys_update_name>sys_hub_action_instance_1a67fe47049333007f4465e1eb110399</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:14:28</sys_updated_on>
+        <ui_id>5defc31c-81d0-4fb5-9c87-9eb6e6bf3d53</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1a67fe47049333007f4465e1eb110399"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1a67fe47049333007f4465e1eb110399</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:14:28</sys_created_on>
+        <sys_id>9667fe47049333007f4465e1eb11039f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:14:28</sys_updated_on>
+        <value>Phishing Report Acknowledgement</value>
+        <variable display_value="">0a62c1160b100300d97d8bf637673a05</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1a67fe47049333007f4465e1eb110399</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:14:28</sys_created_on>
+        <sys_id>d267fe47049333007f4465e1eb11039f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:14:28</sys_updated_on>
+        <value/>
+        <variable display_value="">4e62c1160b100300d97d8bf637673a10</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1a67fe47049333007f4465e1eb110399"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>1a67fe47049333007f4465e1eb110399</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:14:28</sys_created_on>
+        <sys_id>5267fe47049333007f4465e1eb11039f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:14:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>&lt;p&gt;Hi&amp;nbsp; &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="34f7eade-7a71-4e0c-abe7-36e672feb02a" data-pillvalue="{{Created or Updated_1.current.affected_user.first_name}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="34f7eade-7a71-4e0c-abe7-36e672feb02a" data-pillvalue="{{Created or Updated_1.current.affected_user.first_name}}"&gt;Trigger➛Security Incident Record➛Affected user➛First name&lt;/span&gt;&lt;/span&gt;,&lt;br /&gt;&lt;br /&gt;Thank you for reporting the suspicious email. A Security Incident&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="1f3818a5-7a9d-4f8f-8065-54bd4f3c6550" data-pillvalue="{{Created or Updated_1.current.number}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="1f3818a5-7a9d-4f8f-8065-54bd4f3c6550" data-pillvalue="{{Created or Updated_1.current.number}}"&gt;Trigger➛Security Incident Record➛Number&lt;/span&gt;&lt;/span&gt;has been created for this.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;The Security Team will review and respond to the threat.&amp;nbsp;&lt;br /&gt;&lt;br /&gt;Best Regards,&lt;/p&gt;
+&lt;p&gt;Service Desk&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>1a67fe47049333007f4465e1eb110399</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:14:28</sys_created_on>
+        <sys_id>9e67fe47049333007f4465e1eb11039e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:14:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>1a67fe47049333007f4465e1eb110399</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:14:28</sys_created_on>
+        <sys_id>da67fe47049333007f4465e1eb11039e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:14:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>{{Created or Updated_1.current.affected_user.email}}</value>
+    </sys_element_mapping>
+</record_update>

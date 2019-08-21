@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_sub_flow_instance">
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <comment>Subflow to get observable reputation using threat look up implementations (Example: using VirusTotal)</comment>
+        <display_text/>
+        <flow display_value="Security Incident - Automated Phishing Playbook - Template V1">c667fe47049333007f4465e1eb110356</flow>
+        <inputs/>
+        <inputs/>
+        <order>7.1.1</order>
+        <parent_ui_id>95afc795-fcdf-460a-9538-33cb1de4d7f1</parent_ui_id>
+        <subflow display_value="Run Threat Lookups for Observables V1">e8ebca47b3302300ed7fc9c316a8dc51</subflow>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:14:29</sys_created_on>
+        <sys_id>6e673287049333007f4465e1eb110347</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RWPSecOps" source="x_snc_rwpsecops">0cf6f647049333007f4465e1eb1103f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RWPSecOps">0cf6f647049333007f4465e1eb1103f1</sys_scope>
+        <sys_update_name>sys_hub_sub_flow_instance_6e673287049333007f4465e1eb110347</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:14:29</sys_updated_on>
+        <ui_id>10ddf618-6fa4-4221-94cd-16108d81320a</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6e673287049333007f4465e1eb110347"/>
+    <sys_element_mapping action="delete_multiple" query="id=6e673287049333007f4465e1eb110347"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>domainid</field>
+        <id>6e673287049333007f4465e1eb110347</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:14:29</sys_created_on>
+        <sys_id>aa673287049333007f4465e1eb11034d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:14:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_e8ebca47b3302300ed7fc9c316a8dc51</table>
+        <value>{{Created or Updated_1.current.sys_domain}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>observables</field>
+        <id>6e673287049333007f4465e1eb110347</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:14:29</sys_created_on>
+        <sys_id>e6673287049333007f4465e1eb11034d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:14:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_e8ebca47b3302300ed7fc9c316a8dc51</table>
+        <value>{{a83a0b2f-6cd9-4934-9100-e779ccbdda09.observables}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tasksysid</field>
+        <id>6e673287049333007f4465e1eb110347</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:14:29</sys_created_on>
+        <sys_id>6e673287049333007f4465e1eb11034d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:14:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_e8ebca47b3302300ed7fc9c316a8dc51</table>
+        <value>{{Created or Updated_1.current.sys_id}}</value>
+    </sys_element_mapping>
+</record_update>

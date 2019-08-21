@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>0c6492500b81230099b8ea7885673a94</copied_from>
+        <copied_from_name>Security Incident - Phishing Man</copied_from_name>
+        <description/>
+        <internal_name>security_incident_-_phishing_manual_-_template_v1</internal_name>
+        <label_cache>[{"name":"d5bc7ed7-8544-44cf-bfc3-49516a2af3af.Security Incident Flow Response Task","label":"10➛Security Incident Flow Response Task","reference":"sn_si_task","reference_display":"Security Incident Response Task","type":"document_id","base_type":"document_id"},{"name":"816d4878-3691-48d6-834d-38d007792657.returnval","label":"11.1➛Return Value","reference_display":"Return Value","type":"string","base_type":"string"},{"name":"816d4878-3691-48d6-834d-38d007792657.result","label":"11.1➛Result","reference_display":"Result","type":"string","base_type":"string"},{"name":"816d4878-3691-48d6-834d-38d007792657.context","label":"11.1➛Context","reference":"wf_context","reference_display":"Workflow context","type":"reference","base_type":"reference"},{"name":"816d4878-3691-48d6-834d-38d007792657.state","label":"11.1➛State","reference_display":"State","type":"string","base_type":"string"},{"name":"d54b137e-275e-44f1-8785-e6d2367ba559.Security Incident Flow Response Task.outcome","label":"10➛Security Incident Flow Response Task➛Outcome","reference":"","reference_display":"Outcome","type":"choice","base_type":"choice","parent_table_name":"sn_si_task","column_name":"outcome"},{"name":"d54b137e-275e-44f1-8785-e6d2367ba559.Security Incident Flow Response Task","label":"10➛Security Incident Flow Response Task","reference":"sn_si_task","reference_display":"Security Incident Response Task","type":"document_id","base_type":"document_id"},{"name":"497fec1b-ca60-46a0-9802-569d3eff0955.Security Incident Flow Response Task","label":"10➛Security Incident Flow Response Task","reference":"sn_si_task","reference_display":"Security Incident Response Task","type":"document_id","base_type":"document_id"},{"name":"168933f4-29f6-4a7d-9a83-2b8b81f914d5.Security Incident Flow Response Task","label":"9➛Security Incident Flow Response Task","reference":"sn_si_task","reference_display":"Security Incident Response Task","type":"document_id","base_type":"document_id"},{"name":"6d3b6380-6eb3-453e-b4b1-1483fef08bd2.Security Incident Flow Response Task","label":"8➛Security Incident Flow Response Task","reference":"sn_si_task","reference_display":"Security Incident Response Task","type":"document_id","base_type":"document_id"},{"name":"654a9658-b0dc-4110-950f-e16fa031648c.Security Incident Flow Response Task","label":"7.1➛Security Incident Flow Response Task","reference":"sn_si_task","reference_display":"Security Incident Response Task","type":"document_id","base_type":"document_id"},{"name":"5356741d-7b1e-4d38-92c3-a941325e7470.Security Incident Flow Response Task.outcome","label":"6➛Security Incident Flow Response Task➛Outcome","reference":"","reference_display":"Outcome","type":"choice","base_type":"choice","parent_table_name":"sn_si_task","column_name":"outcome"},{"name":"5356741d-7b1e-4d38-92c3-a941325e7470.Security Incident Flow Response Task","label":"6➛Security Incident Flow Response Task","reference":"sn_si_task","reference_display":"Security Incident Response Task","type":"document_id","base_type":"document_id"},{"name":"620f18bb-7720-4c40-ae3f-591225b9f8fb.Security Incident Flow Response Task","label":"5.2.1➛Security Incident Flow Response Task","reference":"sn_si_task","reference_display":"Security Incident Response Task","type":"document_id","base_type":"document_id"},{"name":"bdb66cf2-f6ed-4e22-89e5-f87adf58dca7.Security Incident Flow Response Task","label":"5.1.1➛Security Incident Flow Response Task","reference":"sn_si_task","reference_display":"Security Incident Response Task","type":"document_id","base_type":"document_id"},{"name":"9fb819e9-d5c7-4978-857f-d289dfe62844.Security Incident Flow Response Task","label":"5➛Security Incident Flow Response Task","reference":"sn_si_task","reference_display":"Security Incident Response Task","type":"document_id","base_type":"document_id"},{"name":"940cf00f-a681-462a-ab34-b32e8ab7e7a7.Security Incident Flow Response Task","label":"3.1➛Security Incident Flow Response Task","reference":"sn_si_task","reference_display":"Security Incident Response Task","type":"document_id","base_type":"document_id"},{"name":"f0c25887-132e-40e9-bece-bf4d865e6b6c.Security Incident Flow Response Task.outcome","label":"2➛Security Incident Flow Response Task➛Outcome","reference":"","reference_display":"Outcome","type":"choice","base_type":"choice","parent_table_name":"sn_si_task","column_name":"outcome"},{"name":"f0c25887-132e-40e9-bece-bf4d865e6b6c.Security Incident Flow Response Task","label":"2➛Security Incident Flow Response Task","reference":"sn_si_task","reference_display":"Security Incident Response Task","type":"document_id","base_type":"document_id"},{"name":"Created or Updated_1.current","label":"Trigger➛Security Incident Record","reference":"sn_si_incident","reference_display":"Security Incident","type":"reference","base_type":"reference"},{"name":"583fd9c2-3ab3-45c5-9779-64cdcd7bbc0f.Security Incident Flow Response Task","label":"2➛Security Incident Flow Response Task","reference":"sn_si_task","reference_display":"Security Incident Response Task","type":"document_id","base_type":"document_id"},{"name":"95026238-70ad-4f4d-b715-7fe44110e9e7.Security Incident Flow Response Task","label":"4➛Security Incident Flow Response Task","reference":"sn_si_task","reference_display":"Security Incident Response Task","type":"document_id","base_type":"document_id"},{"name":"f4e0ec37-9fbe-4454-af7d-c08a32f66ec0.Security Incident Flow Response Task","label":"1➛Security Incident Flow Response Task","reference":"sn_si_task","reference_display":"Security Incident Response Task","type":"document_id","base_type":"document_id"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Security Incident - Phishing Manual - Template V1</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:15:12</sys_created_on>
+        <sys_id>8597f287049333007f4465e1eb110387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Security Incident - Phishing Manual - Template V1</sys_name>
+        <sys_package display_value="RWPSecOps" source="x_snc_rwpsecops">0cf6f647049333007f4465e1eb1103f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RWPSecOps">0cf6f647049333007f4465e1eb1103f1</sys_scope>
+        <sys_update_name>sys_hub_flow_8597f287049333007f4465e1eb110387</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:15:12</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=8597f287049333007f4465e1eb110387"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8597f287049333007f4465e1eb110387"/>
+</record_update>

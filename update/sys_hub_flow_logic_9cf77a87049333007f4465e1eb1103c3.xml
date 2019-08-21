@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">32e24ac8b3812300ed7fc9c316a8dce8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Confirm Threat from Observable Triage V1">c8f77a87049333007f4465e1eb11033f</flow>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>7</order>
+        <outputs_assigned>malicious_observables_from_threat_triage,old_risk_score,new_risk_score,response_task_for_triage_review,old_state,new_state</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:47</sys_created_on>
+        <sys_id>9cf77a87049333007f4465e1eb1103c3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RWPSecOps" source="x_snc_rwpsecops">0cf6f647049333007f4465e1eb1103f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RWPSecOps">0cf6f647049333007f4465e1eb1103f1</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_9cf77a87049333007f4465e1eb1103c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:47</sys_updated_on>
+        <ui_id>739d26a7-2a07-4af0-b2fa-596bd9a4a12f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=9cf77a87049333007f4465e1eb1103c3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>9cf77a87049333007f4465e1eb1103c3</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:47</sys_created_on>
+        <sys_id>54f77a87049333007f4465e1eb1103c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:47</sys_updated_on>
+        <value/>
+        <variable display_value="">84f77a87049333007f4465e1eb110370</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>9cf77a87049333007f4465e1eb1103c3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:47</sys_created_on>
+        <sys_id>90f77a87049333007f4465e1eb1103c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:47</sys_updated_on>
+        <value/>
+        <variable display_value="">48f77a87049333007f4465e1eb11036a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9cf77a87049333007f4465e1eb1103c3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>malicious_observables_from_threat_triage</field>
+        <id>9cf77a87049333007f4465e1eb1103c3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:47</sys_created_on>
+        <sys_id>10f77a87049333007f4465e1eb1103c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:47</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_c8f77a87049333007f4465e1eb11033f</table>
+        <value>{{820031c3-3830-4cfa-b175-0c51b7017e00.observables}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>new_risk_score</field>
+        <id>9cf77a87049333007f4465e1eb1103c3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:47</sys_created_on>
+        <sys_id>d4f77a87049333007f4465e1eb1103c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:47</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_c8f77a87049333007f4465e1eb11033f</table>
+        <value>{{d152d4e9-f635-4ab4-8341-d87005db231f.Record.risk_score}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>new_state</field>
+        <id>9cf77a87049333007f4465e1eb1103c3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:47</sys_created_on>
+        <sys_id>5cf77a87049333007f4465e1eb1103c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:47</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_c8f77a87049333007f4465e1eb11033f</table>
+        <value>{{d152d4e9-f635-4ab4-8341-d87005db231f.Record.state}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>old_risk_score</field>
+        <id>9cf77a87049333007f4465e1eb1103c3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:47</sys_created_on>
+        <sys_id>50f77a87049333007f4465e1eb1103c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:47</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_c8f77a87049333007f4465e1eb11033f</table>
+        <value>{{986cf98e-ba38-48fe-99b3-a187f55338b9.Record.risk_score}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>old_state</field>
+        <id>9cf77a87049333007f4465e1eb1103c3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:47</sys_created_on>
+        <sys_id>98f77a87049333007f4465e1eb1103c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:47</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_c8f77a87049333007f4465e1eb11033f</table>
+        <value>{{986cf98e-ba38-48fe-99b3-a187f55338b9.Record.state}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_task_for_triage_review</field>
+        <id>9cf77a87049333007f4465e1eb1103c3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:47</sys_created_on>
+        <sys_id>14f77a87049333007f4465e1eb1103c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:47</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_c8f77a87049333007f4465e1eb11033f</table>
+        <value>{{ab531333-d479-4172-a201-1ce3c3d63ab6.Security Incident Flow Response Task}}</value>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">ca07ee090b30030085c083eb37673afc</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment>Check to see if the incident has already been tagged for IOC detection</comment>
+        <compiled_snapshot>ca07ee090b30030085c083eb37673afc</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Confirm Threat from Observable Triage V1">c8f77a87049333007f4465e1eb11033f</flow>
+        <order>3.3</order>
+        <parent_ui_id>0138de3d-eb47-43f2-9ee5-b2564c4b5a25</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:48</sys_created_on>
+        <sys_id>90f77a87049333007f4465e1eb1103ee</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RWPSecOps" source="x_snc_rwpsecops">0cf6f647049333007f4465e1eb1103f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RWPSecOps">0cf6f647049333007f4465e1eb1103f1</sys_scope>
+        <sys_update_name>sys_hub_action_instance_90f77a87049333007f4465e1eb1103ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:48</sys_updated_on>
+        <ui_id>d494e0bc-468e-44c2-8930-5a16acc1d43b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=90f77a87049333007f4465e1eb1103ee"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>90f77a87049333007f4465e1eb1103ee</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:48</sys_created_on>
+        <sys_id>10f77a87049333007f4465e1eb1103f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:48</sys_updated_on>
+        <value>sn_sec_cmn_applied_security_tag</value>
+        <variable display_value="">8a07ee090b30030085c083eb37673aff</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=90f77a87049333007f4465e1eb1103ee"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>90f77a87049333007f4465e1eb1103ee</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:48</sys_created_on>
+        <sys_id>d8f77a87049333007f4465e1eb1103f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ca07ee090b30030085c083eb37673afc</table>
+        <value>record_id={{986cf98e-ba38-48fe-99b3-a187f55338b9.Record}}^security_tag=c4595839b3012300ed7fc9c316a8dca0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>90f77a87049333007f4465e1eb1103ee</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:48</sys_created_on>
+        <sys_id>9cf77a87049333007f4465e1eb1103f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ca07ee090b30030085c083eb37673afc</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

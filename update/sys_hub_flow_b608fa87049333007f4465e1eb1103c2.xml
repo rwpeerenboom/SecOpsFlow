@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Security Operations">48783d9bdb344300346ff2b6ae9619e7</category>
+        <copied_from>1c421b16b3412300ed7fc9c316a8dce4</copied_from>
+        <copied_from_name>Create Block Requests V1</copied_from_name>
+        <description/>
+        <internal_name>create_block_requests_v1</internal_name>
+        <label_cache>[{"name":"fe2ffa13-cdb8-479a-81c5-80fa7cd50ee7.context","label":"4➛Context","reference":"wf_context","reference_display":"Workflow context","type":"reference","base_type":"reference"},{"name":"subflow.observables","label":"Input➛observables","type":"string","base_type":"string"},{"name":"7a662eb0-dfd1-4aa6-8fd6-56fdcf4630f2.sightingsearchobservables","label":"3➛sightingSearchObservables","type":"string","base_type":"string"},{"name":"0234e70f-7257-4086-8f5a-e1a4d71bc561.Count","label":"3.2.3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"0234e70f-7257-4086-8f5a-e1a4d71bc561.Table","label":"3.2.3➛Observable Table","reference":"sn_ti_observable","reference_display":"Observable","type":"table_name","base_type":"table_name"},{"name":"0234e70f-7257-4086-8f5a-e1a4d71bc561.Records","label":"3.2.3➛Observable Records","reference":"sn_ti_observable","reference_display":"Observable","type":"records","base_type":"records"},{"name":"73dc60ff-7c24-4693-8131-47c589804632.returnval","label":"3.2.2➛Return Value","reference_display":"Return Value","type":"string","base_type":"string"},{"name":"73dc60ff-7c24-4693-8131-47c589804632.result","label":"3.2.2➛Result","reference_display":"Result","type":"string","base_type":"string"},{"name":"73dc60ff-7c24-4693-8131-47c589804632.context","label":"3.2.2➛Context","reference":"wf_context","reference_display":"Workflow context","type":"reference","base_type":"reference"},{"name":"73dc60ff-7c24-4693-8131-47c589804632.state","label":"3.2.2➛State","reference_display":"State","type":"string","base_type":"string"},{"name":"9a84980c-9f58-46f8-ac0b-6da8a757b74a.Count","label":"3.1.1➛Count","type":"integer","base_type":"integer"},{"name":"9a84980c-9f58-46f8-ac0b-6da8a757b74a.Table","label":"3.1.1➛Observable Table","reference":"sn_ti_observable","reference_display":"Observable","type":"table_name","base_type":"table_name"},{"name":"9a84980c-9f58-46f8-ac0b-6da8a757b74a.Records","label":"3.1.1➛Observable Records","reference":"sn_ti_observable","reference_display":"Observable","type":"records","base_type":"records"},{"name":"79df8763-d707-469f-82d4-e490d387a985.Record.sys_id","label":"2➛Integration Capability Implementation Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_sec_cmn_integration_capability_implementation","column_name":"sys_id"},{"name":"6e11dfb9-ef3c-41ca-ab49-fe495e7f831f.Record","label":"1➛Security Incident Record","reference":"sn_si_incident","reference_display":"Security Incident","type":"reference","base_type":"reference"},{"name":"6e11dfb9-ef3c-41ca-ab49-fe495e7f831f.Table","label":"1➛Security Incident Table","reference":"sn_si_incident","reference_display":"Security Incident","type":"table_name","base_type":"table_name"},{"name":"subflow.incidentsysid","label":"Input➛incidentSysId","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"79df8763-d707-469f-82d4-e490d387a985.Record","label":"2➛Integration Capability Implementation Record","reference":"sn_sec_cmn_integration_capability_implementation","reference_display":"Integration Capability Implementation","type":"reference","base_type":"reference"},{"name":"79df8763-d707-469f-82d4-e490d387a985.Table","label":"2➛Integration Capability Implementation Table","reference":"sn_sec_cmn_integration_capability_implementation","reference_display":"Integration Capability Implementation","type":"table_name","base_type":"table_name"},{"name":"79df8763-d707-469f-82d4-e490d387a985.Record.active","label":"2➛Integration Capability Implementation Record➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"sn_sec_cmn_integration_capability_implementation","column_name":"active"},{"name":"b8d24740-3554-4e83-8df0-817eb7ad00c8.sightingsearchobservables","label":"3.1.1➛sightingsearchobservables","reference_display":"sightingsearchobservables","type":"string","base_type":"string"},{"name":"subflow.url_observables","label":"Input➛URL Observables","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"6e11dfb9-ef3c-41ca-ab49-fe495e7f831f.Record.sys_domain","label":"1➛Security Incident Record➛Domain","reference":"sys_user_group","reference_display":"Group","type":"domain_id","base_type":"domain_id","parent_table_name":"sn_si_incident","column_name":"sys_domain"},{"name":"090f8c55-4e5a-489c-8ee6-e6ff17a2ffaa.state","label":"3.1.2➛State","reference_display":"State","type":"string","base_type":"string"},{"name":"090f8c55-4e5a-489c-8ee6-e6ff17a2ffaa.context","label":"3.1.2➛Context","reference":"wf_context","reference_display":"Workflow context","type":"reference","base_type":"reference"},{"name":"090f8c55-4e5a-489c-8ee6-e6ff17a2ffaa.result","label":"3.1.2➛Result","reference_display":"Result","type":"string","base_type":"string"},{"name":"090f8c55-4e5a-489c-8ee6-e6ff17a2ffaa.returnval","label":"3.1.2➛Return Value","reference_display":"Return Value","type":"string","base_type":"string"},{"name":"e0c1c282-1ad7-4638-84bf-e1d67dffdc76.sightingsearchobservables","label":"3.2.1➛sightingsearchobservables","reference_display":"sightingsearchobservables","type":"string","base_type":"string"},{"name":"subflow.ip_observables","label":"Input➛IP Observables","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Create Block Requests V1</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:17:14</sys_created_on>
+        <sys_id>b608fa87049333007f4465e1eb1103c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Block Requests V1</sys_name>
+        <sys_package display_value="RWPSecOps" source="x_snc_rwpsecops">0cf6f647049333007f4465e1eb1103f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RWPSecOps">0cf6f647049333007f4465e1eb1103f1</sys_scope>
+        <sys_update_name>sys_hub_flow_b608fa87049333007f4465e1eb1103c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:17:14</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=b608fa87049333007f4465e1eb1103c2"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b608fa87049333007f4465e1eb1103c2"/>
+</record_update>

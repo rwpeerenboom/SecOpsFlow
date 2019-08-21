@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">688404edb3412300ed7fc9c316a8dc17</block>
+        <comment>Invoke Email Search capability workflow for the current Search Record</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Assess Phishing Email Impact V1">6ac7b687049333007f4465e1eb1103f7</flow>
+        <inputs/>
+        <logic_definition display_value="Call a Workflow">e6edace2733203006715b45a4cf6a7b2</logic_definition>
+        <order>3.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>f5874397-6cde-4c62-9f37-2ab89896ddbf</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:07</sys_created_on>
+        <sys_id>eac7f687049333007f4465e1eb110312</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RWPSecOps" source="x_snc_rwpsecops">0cf6f647049333007f4465e1eb1103f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RWPSecOps">0cf6f647049333007f4465e1eb1103f1</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_eac7f687049333007f4465e1eb110312</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:07</sys_updated_on>
+        <ui_id>daf5474d-0267-4ef8-a8f1-32cc56520efc</ui_id>
+        <workflow_inputs/>
+        <workflow_inputs/>
+        <workflow_reference display_value="Security Operations Integration - Email Search and Delete">e74aab570bc332008f9108e3c5673ae5</workflow_reference>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=eac7f687049333007f4465e1eb110312"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>eac7f687049333007f4465e1eb110312</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:07</sys_created_on>
+        <sys_id>a2c7f687049333007f4465e1eb110317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:07</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">4aa624e8734303006715b45a4cf6a785</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=eac7f687049333007f4465e1eb110312"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>domain_id</field>
+        <id>eac7f687049333007f4465e1eb110312</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:07</sys_created_on>
+        <sys_id>aec7f687049333007f4465e1eb110317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:07</sys_updated_on>
+        <table>var__m_var_dictionary_e74aab570bc332008f9108e3c5673ae5</table>
+        <value>{{87224756-454b-4ae2-98b5-5dd9915d09cf.Record.sys_domain}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>email_search_id</field>
+        <id>eac7f687049333007f4465e1eb110312</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:07</sys_created_on>
+        <sys_id>26c7f687049333007f4465e1eb110318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:07</sys_updated_on>
+        <table>var__m_var_dictionary_e74aab570bc332008f9108e3c5673ae5</table>
+        <value>{{f5874397-6cde-4c62-9f37-2ab89896ddbf.item.sn_sec_cmn_email_search.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_sys_id</field>
+        <id>eac7f687049333007f4465e1eb110312</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:16:07</sys_created_on>
+        <sys_id>62c7f687049333007f4465e1eb110318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:16:07</sys_updated_on>
+        <table>var__m_var_dictionary_e74aab570bc332008f9108e3c5673ae5</table>
+        <value>{{subflow.incidentsysid}}</value>
+    </sys_element_mapping>
+</record_update>

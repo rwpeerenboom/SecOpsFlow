@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Response Task set Incident state V1">6707f8400b81230099b8ea7885673af7</action_type>
+        <action_type_parent display_value="Create Response Task set Incident state V1">8907f8400b81230099b8ea7885673a17</action_type_parent>
+        <comment>Are there related incidents for the threat ?</comment>
+        <compiled_snapshot>6707f8400b81230099b8ea7885673af7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Security Incident - Phishing Manual - Template V1">8597f287049333007f4465e1eb110387</flow>
+        <order>5.1.1</order>
+        <parent_ui_id>d71dbbf2-b4a1-4153-a2a5-34eddc4fd007</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:15:13</sys_created_on>
+        <sys_id>1d97f287049333007f4465e1eb1103e4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RWPSecOps" source="x_snc_rwpsecops">0cf6f647049333007f4465e1eb1103f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RWPSecOps">0cf6f647049333007f4465e1eb1103f1</sys_scope>
+        <sys_update_name>sys_hub_action_instance_1d97f287049333007f4465e1eb1103e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:15:13</sys_updated_on>
+        <ui_id>bdb66cf2-f6ed-4e22-89e5-f87adf58dca7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1d97f287049333007f4465e1eb1103e4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1d97f287049333007f4465e1eb1103e4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:15:13</sys_created_on>
+        <sys_id>1997f287049333007f4465e1eb1103ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:15:13</sys_updated_on>
+        <value>Are there related incidents for the threat ?</value>
+        <variable display_value="">bb073c400b81230099b8ea7885673a00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1d97f287049333007f4465e1eb1103e4</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:15:13</sys_created_on>
+        <sys_id>5597f287049333007f4465e1eb1103ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:15:13</sys_updated_on>
+        <value>yes_no</value>
+        <variable display_value="">f7073c400b81230099b8ea7885673a06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1d97f287049333007f4465e1eb1103e4</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:15:13</sys_created_on>
+        <sys_id>9d97f287049333007f4465e1eb1103ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:15:13</sys_updated_on>
+        <value>18</value>
+        <variable display_value="">c9a85e030b91230099b8ea7885673a30</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1d97f287049333007f4465e1eb1103e4</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:15:13</sys_created_on>
+        <sys_id>d997f287049333007f4465e1eb1103ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:15:13</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">f3073c400b81230099b8ea7885673a0c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1d97f287049333007f4465e1eb1103e4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_outcome_type</field>
+        <id>1d97f287049333007f4465e1eb1103e4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:15:13</sys_created_on>
+        <sys_id>5d97f287049333007f4465e1eb1103e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:15:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6707f8400b81230099b8ea7885673af7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_parent_task</field>
+        <id>1d97f287049333007f4465e1eb1103e4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:15:13</sys_created_on>
+        <sys_id>d597f287049333007f4465e1eb1103e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:15:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6707f8400b81230099b8ea7885673af7</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>1d97f287049333007f4465e1eb1103e4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:15:13</sys_created_on>
+        <sys_id>1197f287049333007f4465e1eb1103ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:15:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6707f8400b81230099b8ea7885673af7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_si_state</field>
+        <id>1d97f287049333007f4465e1eb1103e4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:15:13</sys_created_on>
+        <sys_id>d197f287049333007f4465e1eb1103ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:15:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6707f8400b81230099b8ea7885673af7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_wait_for_completion</field>
+        <id>1d97f287049333007f4465e1eb1103e4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-21 01:15:13</sys_created_on>
+        <sys_id>9997f287049333007f4465e1eb1103e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-21 01:15:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6707f8400b81230099b8ea7885673af7</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
